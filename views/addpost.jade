@@ -27,3 +27,6 @@ block content
 				option(value='Sandeep Shukla') Sandeep Shukla
 				option(value='Unknown Person') Unknown Person
 		input.btn.btn-default(name='submit',type='submit',value='Save')
+		script(src='/ckeditor/ckeditor.js')
+		script
+			| CKEDITOR.replace('body');
